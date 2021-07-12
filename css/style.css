@@ -27,6 +27,16 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #F16059;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
 main {
     width: 1000px;
     margin: 0 auto;
@@ -66,4 +76,43 @@ main {
 #salad .image {
     background-image: url("../img/watermelon-salad.jpg");
     background-size: cover;
+}
+
+.time {
+    margin: 1px; 
+    border: 1px solid #3B3B3B;
+    overflow: auto;
+    
+}
+
+
+.cook {
+     border-left: 1px solid #3B3B3B;
+     border-right: 1px solid #3B3B3B;
+}
+
+
+
+.prep, .cook, .total {
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+.time-details {
+    display: inline-block;
+}
+
+.time strong {
+    font-family: 'Montserrat';
 }
